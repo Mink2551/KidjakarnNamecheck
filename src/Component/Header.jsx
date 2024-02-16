@@ -4,7 +4,7 @@ import '../../src/index.css'; // Import CSS file for styling
 const Header = () => {
     const [typedText, setTypedText] = useState('');
     const textToType = "NameChecks";
-    const typingSpeed = 200; // Speed of typing in milliseconds
+    const typingSpeed = 400; // Speed of typing in milliseconds
 
     useEffect(() => {
         let currentIndex = 0;
