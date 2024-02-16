@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body {
+        margin: 0;
+        @apply bg-gradient-to-r from-primaryEarthtone2 to-primaryP2
+    }
+}
+
+@font-face {
+    font-family: "Anakotmai";
+    src: url("../fonts/anakotmai-medium.woff2") format("woff2"),
+      url("../fonts/anakotmai-medium.woff") format("woff"),
+      url("../fonts/anakotmai-medium.eot") format("eot");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Anakotmai";
+    src: url("../fonts/anakotmai-bold.woff2") format("woff2"),
+      url("../fonts/anakotmai-bold.woff") format("woff"),
+      url("../fonts/anakotmai-bold.eot") format("eot");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Anakotmai";
+    src: url("../fonts/anakotmai-light.woff2") format("woff2"),
+      url("../fonts/anakotmai-light.woff") format("woff"),
+      url("../fonts/anakotmai-light.eot") format("eot");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Anakotmai", system-ui, sans-serif
+ }
+
+ .cursor {
+  display: inline-block;
+  width: 0.2em;
+  height: 1.2em;
+  background-color: black;
+  animation: blink 1s infinite;
+  margin-left: 4px; /* Adjust the margin as needed to ensure proper spacing */
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #ec6b44; /* Change color on hover */
+}
+
+.icon:hover {
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Increase size on hover */
+}
+
+.icon:hover {
+  icon: faInstagramSquare; /* Change icon on hover */
+}
+
+.custom-height {
+  height: 100vh; /* Set initial height to 100% of viewport height */
+}
+
+@media (min-width: 300px) {
+  /* Apply styles for screens wider than 640px */
+  .custom-height {
+    height: 700px; /* Set height to auto for screens wider than 640px */
+  }
+}
+
+
