@@ -47,7 +47,7 @@ const Gradeselect = () => {
                     )}
                     {content === 'a' && <div>
                         
-                        <div className='grid grid-cols-3 mt-16 m-5'>
+                        <div className='grid grid-cols-3 mt-12 m-5'>
                             <div>
                                 <div className='m-3 rounded-2xl'>
                                     <div className="card w-full bg-base-100 shadow-xl">
